@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#quoteContainer {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#butt {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#submit {
+    font-size: 1.4em;
+    background-color: #647daf;
+    padding: 5px;
+}
+
+#submit:hover {
+    background-color: #a8bde6;
+}
+
+#quote {
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+#author {
+    font-size: 1.2em;
+    font-weight: bold;
+}
